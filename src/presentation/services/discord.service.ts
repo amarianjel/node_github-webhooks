@@ -1,8 +1,6 @@
 import { envs } from '../../config';
 
 
-
-
 export class DiscordService {
 
   private readonly discordWebhookUrl = envs.DISCORD_WEBHOOK_URL;
@@ -34,7 +32,4 @@ export class DiscordService {
 
     return true;
   }
-
-
-
 }
